@@ -1,0 +1,2 @@
+import"./assets/common-07320d55.js";import{P as n,t as a}from"./assets/vendor-c4bdc8af.js";const m=document.querySelector("iframe"),o=new n(m),i="videoplayer-current-time";let t=0;const r=JSON.parse(localStorage.getItem(i));r>t&&o.setCurrentTime(r);function s(e){t=e.seconds,c(t)}function c(e){localStorage.setItem(i,JSON.stringify(e))}o.on("timeupdate",a(s,1e3));
+//# sourceMappingURL=commonHelpers2.js.map
