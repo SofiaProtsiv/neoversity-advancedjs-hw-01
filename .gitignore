@@ -1,0 +1,8 @@
+secret.md
+*.psd
+.DS_Store
+node_modules
+.gitattributes
+package-lock.json
+.prettierrc
+.editorconfig
