@@ -3,6 +3,5 @@ secret.md
 .DS_Store
 node_modules
 .gitattributes
-package-lock.json
 .prettierrc
 .editorconfig
