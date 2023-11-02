@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sofiaprotsiv.github.io/neoversity-advancedjs-hw-07/",
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/neoversity-advancedjs-hw-07/",
