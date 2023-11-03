@@ -1,2 +1,2 @@
-import"./assets/common-94ab0fbd.js";import{P as a,l as n}from"./assets/vendor-78be7656.js";const m=document.querySelector("iframe"),o=new a(m),i="videoplayer-current-time";let t=0;const r=JSON.parse(localStorage.getItem(i));r>t&&o.setCurrentTime(r);function s(e){t=e.seconds,c(t)}function c(e){localStorage.setItem(i,JSON.stringify(e))}o.on("timeupdate",n(s,1e3));
+import"./assets/common-94ab0fbd.js";import{P as r,l as a}from"./assets/vendor-78be7656.js";const i=document.querySelector("iframe"),t=new r(i),o="videoplayer-current-time",n=JSON.parse(localStorage.getItem(o));t.setCurrentTime(n||0);function s(e){m(e.seconds)}function m(e){localStorage.setItem(o,JSON.stringify(e))}t.on("timeupdate",a(s,1e3));
 //# sourceMappingURL=commonHelpers2.js.map
